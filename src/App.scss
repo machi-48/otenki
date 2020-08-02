@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background: #ff9c6b;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  &__weather {
+    img {
+      object-fit: cover;
+    }
+  }
+  &__location {
+    color: #fff;
+    font-weight: bold;
+  }
+}
